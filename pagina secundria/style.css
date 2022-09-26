@@ -1,9 +1,9 @@
 body{ background-color:
     #A6A611;
-
-
     }
-       nav{
+
+
+nav{
      max-width: 100%;
      margin: auto;
      background-color: #F2F218;
@@ -11,14 +11,16 @@ body{ background-color:
      margin-top: 0px;
      font-style: initial;
  }
- .menu-horizontal{
+
+
+.menu-horizontal{
      list-style: none;
      display: flex;
      justify-content: space-around;
  }
 
 
- .menu-horizontal > li > a{
+.menu-horizontal > li > a{
      display: block;
      padding: 10px 10px;
      color: rgba(0, 7, 0, 0.795);
@@ -26,23 +28,28 @@ body{ background-color:
      font-style: initial;
  }
 
- .menu-horizontal > li:hover{
-     background-color: white;
- }
 
- h1{
+.menu-horizontal > li:hover{
+     background-color: white;
+}
+
+
+h1{
   color: black;
   font-style:initial;
   text-align: center;
   font-size: 10ex;
-margin-top: 0%;
-margin-bottom: 0%;
-text-shadow: 5px 5px 5px rgb(208, 222, 18);
+  margin-top: 0%;
+  margin-bottom: 0%;
+  text-shadow: 5px 5px 5px rgb(208, 222, 18);
 }
 
-table, th, td {
 
+table, th, td {
 border:3px solid black;
 }
 
-tr:hover {background-color: white;}
+
+tr:hover {
+    background-color: white;
+}
